@@ -1,0 +1,80 @@
+{
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 0,
+  "window.restoreFullscreen": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.activityBar.visible": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 24,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.matchBrackets": true,
+  "editor.overviewRulerBorder": false,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "solid",
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.printWidth": 120,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.proseWrap": "always",
+  "eslint.enable": true,
+  "eslint.options": {
+    "extends": [
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "jasmine": true,
+      "jest": true,
+      "browser": true,
+      "mocha": true,
+      "mongo": true,
+      "hbs": true,
+      "handlebars": true
+    },
+    "rules": {
+      "no-console": "off",
+      "prefer-const": [
+        "warn"
+      ]
+    }
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.fontAliasing": "auto",
+  "liveshare.featureSet": "insiders",
+  "editor.maxTokenizationLineLength": 20000000,
+  "[javascript]": {
+    
+  },
+  "[javascriptreact]": {
+    
+  },
+}
